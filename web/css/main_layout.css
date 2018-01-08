@@ -1,0 +1,89 @@
+/* navbar */
+.navbarku {
+    background-color: #343333;
+    border-style: solid;
+    border-bottom-width: 7px;
+    border-bottom-color: #AF1111;
+}
+/* title */
+.navbarku .navbar-brand {
+    color: #FFFFFF;
+}
+.navbarku .navbar-brand:hover,
+.navbarku .navbar-brand:focus {
+    color: #FFFFFF;
+}
+/* link */
+.navbarku .navbar-nav > li > a {
+    color: #FFFFFF;
+}
+.navbarku .navbar-nav > li > a:hover,
+.navbarku .navbar-nav > li > a:focus {
+    color: #333;
+}
+.navbarku .navbar-nav > .active > a, 
+.navbarku .navbar-nav > .active > a:hover, 
+.navbarku .navbar-nav > .active > a:focus {
+    color: #FFFFFF;
+    background-color: #AF1111;
+}
+.navbarku .navbar-nav > .open > a, 
+.navbarku .navbar-nav > .open > a:hover, 
+.navbarku .navbar-nav > .open > a:focus {
+    color: #FFFFFF;
+    background-color: #AF1111;
+}
+/* caret */
+.navbarku .navbar-nav > .dropdown > a .caret {
+    border-top-color: #FFFFFF;
+    border-bottom-color: #FFFFFF;
+}
+.navbarku .navbar-nav > .dropdown > a:hover .caret,
+.navbarku .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+}
+.navbarku .navbar-nav > .open > a .caret, 
+.navbarku .navbar-nav > .open > a:hover .caret, 
+.navbarku .navbar-nav > .open > a:focus .caret {
+    border-top-color: #FFFFFF;
+    border-bottom-color: #FFFFFF;
+}
+/* mobile version */
+.navbarku .navbar-toggle {
+    border-color: #DDD;
+}
+.navbarku .navbar-toggle:hover,
+.navbarku .navbar-toggle:focus {
+    background-color: #DDD;
+}
+.navbarku .navbar-toggle .icon-bar {
+    background-color: #CCC;
+}
+@media (max-width: 767px) {
+    .navbarku .navbar-nav .open .dropdown-menu > li > a {
+        color: #AF1111;
+    }
+    .navbarku .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbarku .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+    }
+}
+
+a {
+    color: #AF1111;
+}
+
+.warna {
+    color: #FFFFFF;
+    background-color: #343333;
+    border-style: solid;
+    border-top-width: 7px;
+    border-top-color: #005DFE;
+    border-bottom-width: 7px;
+    border-left-width: 7px;
+    border-right-width: 7px;
+    border-bottom-color: #343333;
+    border-left-color: #343333;
+    border-right-color: #343333;
+}
